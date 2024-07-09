@@ -26,6 +26,7 @@ Run the script from the command line with a password as an argument:
 ```
 #### File
 - `password_script.py`
+  
 ```python
 import argparse
 from cryptography.fernet import Fernet
@@ -69,6 +70,7 @@ Run the script and follow the menu instructions:
 
 #### File
 - `file_encrypt_decrypt.py`
+
    ``` python
   from cryptography.hazmat.primitives import hashes
   from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
@@ -172,6 +174,7 @@ Run the script and provide the target host and port range:
 """ python port_scanner.py """
 ### File
 - `port_scanner.py`
+  
   ``` python
  import socket
 def scan_ports(target_host, port_range):
