@@ -62,9 +62,9 @@ Run the script and provide the target host and port range:
 git clone <repository_url>
 ```
 2. Navigate to the project directory:
-   ``` bash
-   cd <repository_name>
-   ```
+``` bash
+cd <repository_name>
+```
 3. Install the required Python Languages:
   ``` bash
    pip install cryptography
