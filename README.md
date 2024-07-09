@@ -21,13 +21,13 @@ Python script to encrypt and decrypt passwords using Fernet symmetric encryption
 #### Usage
 Run the script from the command line with a password as an argument:
 
-- ``` bash
-  python password_script.py <your_password>```
-
+``` bash
+  python password_script.py <your_password>
+```
 #### File
 - `password_script.py`
 
-### 3. File Encryption and Decryption
+### 2. File Encryption and Decryption
 Python script to encrypt and decrypt files using a password-derived key.
 #### Features
 - Encrypts a file and renames it with a `.enc` extension.
@@ -38,7 +38,9 @@ Python script to encrypt and decrypt files using a password-derived key.
 - `os`
 #### Usage
 Run the script and follow the menu instructions:
-""" python file_encrypt_decrypt.py """
+``` bash
+ python file_encrypt_decrypt.py
+```
 
 #### File
 - `file_encrypt_decrypt.py`
@@ -56,11 +58,17 @@ Run the script and provide the target host and port range:
 - `port_scanner.py`
 #### Installation
 1. Clone the repository
-```git clone <repository_url>```
+``` bash
+git clone <repository_url>
+```
 2. Navigate to the project directory:
-   ```cd <repository_name>```
+   ``` bash
+   cd <repository_name>
+   ```
 3. Install the required Python Languages:
-  ```pip install cryptography```
+  ``` bash
+ pip install cryptography
+```
 ### License
 This project is open source and available under the MIT License.
 
