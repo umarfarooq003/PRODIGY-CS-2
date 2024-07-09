@@ -4,33 +4,8 @@ This project contains multiple security and encryption tools, including a passwo
 
 ## Tools
 
-### 1. Password Complexity Checker
 
-A web-based tool that evaluates the strength of a password based on specific criteria.
-
-#### Features
-- Checks for at least 8 characters.
-- Ensures the presence of at least one uppercase letter.
-- Ensures the presence of at least one lowercase letter.
-- Ensures the presence of at least one number.
-- Ensures the presence of at least one special character.
-- Provides real-time feedback.
-
-#### Technologies
-- HTML
-- CSS
-- JavaScript
-
-#### Usage
-1. Open the `index.html` file in a web browser.
-2. Enter a password to see the feedback.
-
-#### Files
-- `index.html`
-- `password.css`
-- `passwordChecker.js`
-
-### 2. Password Encryption and Decryption
+### 1. Password Encryption and Decryption
 
 Python script to encrypt and decrypt passwords using Fernet symmetric encryption.
 
@@ -45,8 +20,8 @@ Python script to encrypt and decrypt passwords using Fernet symmetric encryption
 
 #### Usage
 Run the script from the command line with a password as an argument:
-```bash
-- python password_script.py <your_password> 
+
+- (```python password_script.py <your_password>```)
 
 #### File
 - `password_script.py`
