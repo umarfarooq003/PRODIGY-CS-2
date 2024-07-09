@@ -21,7 +21,7 @@ Python script to encrypt and decrypt passwords using Fernet symmetric encryption
 #### Usage
 Run the script from the command line with a password as an argument:
 
-- (```python password_script.py <your_password>```)
+- ```python password_script.py <your_password>```
 
 #### File
 - `password_script.py`
@@ -50,16 +50,16 @@ Python script to scan a range of ports on a target host to determine which ports
 - `socket`
 #### Usage
 Run the script and provide the target host and port range:
-(```python port_scanner.py```)
+```python port_scanner.py```
 ### File
 - `port_scanner.py`
 #### Installation
 1. Clone the repository
-(```git clone <repository_url>```)
+```git clone <repository_url>```
 2. Navigate to the project directory:
-(```cd <repository_name>```)
+```cd <repository_name>```
 3. Install the required Python Languages:
-(```pip install cryptography```)
+```pip install cryptography```
 ### License
 This project is open source and available under the MIT License.
 
