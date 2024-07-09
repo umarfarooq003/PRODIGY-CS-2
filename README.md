@@ -55,11 +55,11 @@ Run the script and provide the target host and port range:
 - `port_scanner.py`
 #### Installation
 1. Clone the repository
-""" git clone <repository_url> """
+```git clone <repository_url>```
 2. Navigate to the project directory:
-""" cd <repository_name> """
+   ```cd <repository_name>```
 3. Install the required Python Languages:
-""" pip install cryptography """
+  ```pip install cryptography```
 ### License
 This project is open source and available under the MIT License.
 
