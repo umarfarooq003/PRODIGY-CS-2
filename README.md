@@ -21,7 +21,8 @@ Python script to encrypt and decrypt passwords using Fernet symmetric encryption
 #### Usage
 Run the script from the command line with a password as an argument:
 
-- ```python password_script.py <your_password>```
+- ``` bash
+  python password_script.py <your_password>```
 
 #### File
 - `password_script.py`
