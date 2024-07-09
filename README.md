@@ -67,8 +67,8 @@ git clone <repository_url>
    ```
 3. Install the required Python Languages:
   ``` bash
- pip install cryptography
-```
+   pip install cryptography
+  ```
 ### License
 This project is open source and available under the MIT License.
 
